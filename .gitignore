@@ -12,3 +12,5 @@ endre/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.assets.cach
 endre/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp3.1/AdventOfCode.csprojAssemblyReference.cache
 KebabOfCode.iml
 .idea/
+*.txt
+*.jar
