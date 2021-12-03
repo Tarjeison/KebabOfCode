@@ -14,3 +14,6 @@ KebabOfCode.iml
 .idea/
 *.txt
 *.jar
+2021/ture/META-INF
+2021/ture/main/
+2021/ture/run_day_x.sh
