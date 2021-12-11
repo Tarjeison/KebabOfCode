@@ -14,5 +14,6 @@ KebabOfCode.iml
 *.testlog.manifest
 *.testlog
 2021/kotrum/build/**
+2021/tore/build/**
 .gradle/
 **.DS_Store**
