@@ -1,4 +1,4 @@
-package main
+package day1
 import java.io.File
 
 fun main(){
@@ -9,7 +9,7 @@ fun main(){
 
 fun partOne(){
 	val inputList = mutableListOf<Int>()
-	File("day1/input.txt").useLines{ lines -> lines.forEach { inputList.add(it.toInt()) }}
+	File("src/main/kotlin/day1/input.txt").useLines{ lines -> lines.forEach { inputList.add(it.toInt()) }}
 	
 	var sum=0
 	var previous = inputList[0]
@@ -25,7 +25,7 @@ fun partOne(){
 
 fun partTwo(){
 	val inputList = mutableListOf<Int>()
-	File("day1/input.txt").useLines{ lines -> lines.forEach { inputList.add(it.toInt()) }}
+	File("src/main/kotlin/day1/input.txt").useLines{ lines -> lines.forEach { inputList.add(it.toInt()) }}
 	
 	val newValues = mutableListOf<Int>()
 

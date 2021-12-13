@@ -1,4 +1,4 @@
-package main
+package day2
 import java.io.File
 
 fun main(){
@@ -9,7 +9,7 @@ fun main(){
 
 fun partOne(){
 	val inputList = mutableListOf<String>()
-	File("day2/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
+	File("src/main/kotlin/day2/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
     val instructionList = mutableListOf<Pair<String,Int>>()
     inputList.forEach{
         instructionList.add(Pair(it.split(" ")[0],it.split(" ")[1].toInt()))
@@ -30,7 +30,7 @@ fun partOne(){
 
 fun partTwo(){
 	val inputList = mutableListOf<String>()
-	File("day2/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
+	File("src/main/kotlin/day2/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
     val instructionList = mutableListOf<Pair<String,Int>>()
     inputList.forEach{
         instructionList.add(Pair(it.split(" ")[0],it.split(" ")[1].toInt()))

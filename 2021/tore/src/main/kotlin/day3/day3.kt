@@ -1,4 +1,4 @@
-package main
+package day3
 import java.io.File
 
 fun main(){
@@ -9,7 +9,7 @@ fun main(){
 
 fun partOne(){
 	val inputList = mutableListOf<String>()
-	File("day3/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
+	File("src/main/kotlin/day3/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
     var bitSum = BSum(inputList)
     var gamma = ""
     var epsilon = ""
@@ -29,7 +29,7 @@ fun partOne(){
 
 fun partTwo(){
 	val inputList = mutableListOf<String>()
-	File("day3/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
+	File("src/main/kotlin/day3/input.txt").useLines{ lines -> lines.forEach { inputList.add(it) }}
    
     var o2List = inputList.toMutableList()
     var bitSum = BSum(o2List)
